@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404: Page Not Found</title>
+    <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+    <style>
+        @keyframes fade {
+            from {opacity: 0}
+            to {opacity: 1}
+        }
+        html {
+            background-color: #000000;
+        }
+        .door {
+            opacity:0;
+            animation: fade 2s;
+            animation-fill-mode: forwards;
+            animation-delay: 0.25s;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    </style>
+</head>
+    <body>
+        <div class="door">
+            <!-- Door and text are ripped from Resident Evil (PS1) -->
+            <a href="/"><img src="/assets/images/404_door.png"></a>
+        </div>
+        <audio autoplay="" loop="">
+            <source src="/assets/audio/404_knock.ogg" type="audio/ogg">
+            <source src="/assets/audio/404_knock.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </body>
+</html>
