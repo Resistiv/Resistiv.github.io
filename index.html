@@ -1,9 +1,102 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello World!</title>
+        <title>The Reserv</title>
+        <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+        <style>
+            @font-face {
+                font-family: "montserrat-light";
+                src: url("/assets/fonts/montlite.ttf");
+            }
+            p {
+                color:#000000;
+                font-family: "montserrat-light", serif;
+                font-size: 18px;
+            }
+            .corpsediv p {
+                color:#000000;
+                font-family: "montserrat-light", serif;
+                font-size: 14px;
+            }
+            body {
+                background-image: url("./assets/bg.png");
+                background-repeat: repeat;
+                text-align: center;
+                background-color: #111111;
+            }
+            .menuhead {
+                background-color: lightgray;
+                outline:1px solid #111111;
+                display: flex;
+                justify-content: flex-start;
+                box-shadow: 5px 5px 0px #903044;
+            }
+            .bodydiv {
+                background-color: lightgray;
+                outline:1px solid #111111;
+                box-shadow: 5px 5px 0px #903044;
+                width:600px;
+                margin: 0 auto;
+            }
+            .corpsediv {
+                background-color: lightgray;
+                outline:1px solid #111111;
+                box-shadow: 5px 5px 0px #903044;
+                width:700px;
+                margin: 0 auto;
+            }
+            ul {
+                font-size: 21px;
+                list-style-type: none;
+                margin: 0;
+                padding-top: 21px;
+                padding-left: 0;
+            }
+            li {
+                font-family: "montserrat-light", serif;
+                display: inline;
+                text-shadow: 0px 0px 0px;
+            }
+            li a {
+                color: #000000;
+                text-decoration: none;
+                -webkit-transition: .1s;
+                transition: .1s;
+            }
+            li a:visited {
+                color: #000000;
+            }
+            li a:hover {
+                color: #000000;
+                -webkit-transition: .2s;
+                transition: .2s;
+                text-shadow:
+                    1px 1px 0 #666666,
+                    2px 2px 0 #777777,
+                    3px 3px 0 #888888;
+            }
+        </style>
+        <div class="menuhead">
+            <img src="/assets/images/logo.png" height=40px width=auto style="padding:15px;"></img>
+            <ul>
+                <li>| <a href="/"><b>Home</b></a> </li>
+                <!-- <li>| <a href="/about"><b>About</b></a></li> -->
+            </ul>
+        </div>
     </head>
     <body>
-        <h1>Test test!</h1>
+        <div class="bodydiv">
+            <p style="text-align:center; padding:30px" width=auto><b style="font-size:24px">Welcome!</b><br /><br />Welcome to The Reserv, my own little slice of the Internet! Below are a list of subpages to explore, so check 'em out!<br /></p>
+        </div>
+        <!-- <div class="corpsediv">
+                <br /><a href="/iS"><img src="/assets/window_iS.png"></a>
+                <p style="text-align:center; padding-bottom:20px; padding-top:5px; padding-left:30px; padding-right:30px;" width=auto><b style="font-size:18px">iS  internal section</b><br /><br />An experimental landing page for the 1999 PSX game, iS  internal section. Included are resources (sprites, UI elements, textures, sound effects, etc.) pulled from the game and compiled together.</p>
+            </div> -->
+        <a href="http://resistiv.github.io/"><img src="/assets/images/badge_reserv.png" title="The Reserv"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="/assets/images/badge_vsc.png" title="Visual Studio Code"></a>
+        <a href="http://redump.org/" target="_blank"><img src="/assets/images/badge_redump.png" title="Redump"></a>
+        <a><img src="/assets/images/badge_trans.png" title="Trans rights are human rights!!"></a>
+        <a><img src="/assets/images/badge_pan.png" title="To any pansexual friends out there, you're pan-tastic!!"></a>
+        <br />
     </body>
 </html>
