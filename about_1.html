@@ -5,8 +5,8 @@
     <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
     <style>
         @font-face {
-                font-family: "MorePerfectDOSVGA";
-                src: url("/assets/fonts/MorePerfectDOSVGA.ttf");
+            font-family: "MorePerfectDOSVGA";
+            src: url("/assets/fonts/MorePerfectDOSVGA.ttf");
         }
         @keyframes fade {
             from { opacity: 0; }
@@ -26,10 +26,14 @@
             transform: translateX(-50%) translateY(-50%);
         }
         .init p {
-            animation: type 3s steps(15);
+            width: 0ch;
+            animation: type 1.5s steps(15);
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
             overflow: hidden;
             white-space: nowrap;
             font-family: "MorePerfectDOSVGA";
+            font-size: 26px;
             color: #00ff00;
             border-right: 4px solid #00ff00;
         }
